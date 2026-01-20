@@ -12,10 +12,12 @@ This project demonstrates how to host a static website using:
 - Static Assets (HTML, images)
 
 ### Architecture
+
 User-> CloudFront-> s3
 
-#### How to deploy
+#### Procedure to deploy
 - Upload files in the Amazon s3 bucket
 - Create a CloudFront Distribution
 - Attach bucket policy for Origin Access Control (OAC)
+
 - Access the website via CloudFront domain
